@@ -1,0 +1,53 @@
+.code-editor-container {
+  width: 80%;
+  margin: auto;
+  background: #1e1e2e;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.editor-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.editor-options input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.editor-options button {
+  background: #ff4081;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.editor-container {
+  border: 2px solid #444;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.output-container {
+  margin-top: 10px;
+  background: #282a36;
+  padding: 10px;
+  border-radius: 5px;
+  color: #50fa7b;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

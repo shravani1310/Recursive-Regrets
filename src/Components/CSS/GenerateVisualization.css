@@ -1,0 +1,144 @@
+/* Container Styling */
+.visualization-container {
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Title */
+  .visualization-container h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Elements */
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #444;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .input-group input:focus {
+    border-color: #007bff;
+  }
+  
+  /* File Upload */
+  .file-upload {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px dashed #007bff;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .file-upload:hover {
+    background: rgba(0, 123, 255, 0.1);
+  }
+  
+  /* Generate Button */
+  .generate-btn {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+  }
+  
+  .generate-btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Generated Image */
+  .image-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    padding: 8px;
+  }
+  
+  /* Dataset Preview */
+  .dataset-preview {
+    margin-top: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+  }
+  
+  .dataset-preview table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .dataset-preview th, .dataset-preview td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .dataset-preview th {
+    background: #007bff;
+    color: white;
+  }
+  
+  /* Code Editor Styling */
+  .code-editor-container {
+    margin-top: 30px;
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .code-editor-container h2 {
+    color: #00d4ff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
